@@ -1,0 +1,121 @@
+===
+
+spesial karakter https://www.austincc.edu/rickster/COSC1320/handouts/escchar.htm
+
+===
+
+int main() // C++ programs start by executing the function main
+{
+ cout << "Hello, World!\n"; // output “Hello, World!”
+ return 0;
+}
+Every C++ program must have a function called main to tell it where to start executing. A function is basically a named sequence of instructions for the computer
+to execute in the order in which they are written. A function has four parts:
+• A return type, here int (meaning “integer”), which specifi es what kind of
+result, if any, the function will return to whoever asked for it to be executed. The word int is a reserved word in C++ (a keyword), so int cannot
+be used as the name of anything else (see §A.3.1).
+• A name, here main.
+• A parameter list enclosed in parentheses (see §8.2 and §8.6), here (); in this
+case, the parameter list is empty.
+• A function body enclosed in a set of “curly braces,” { }, which lists the actions (called statements) that the function is to perform.
+
+===
+
+ variable. For example,
+character strings are put into string variables and integers are put into int variables. You can think of an object as a “box” into which you can put a value of the
+object’s type
+
+===
+
+A statement that introduces a new name into a program and sets aside memory
+for a variable is called a definition
+
+===
+
+We use quotes when we want a literal string. When we don’t quote,
+we refer to the value of something with a name.
+
+===
+
+The data items we put into variables are called values.
+
+===
+
+int number_of_steps = 39; // int for integers
+double flying_time = 3.5; // double for floating-point numbers
+char decimal_point = '.'; // char for individual characters
+string name = "Annemarie"; // string for character strings
+bool tap_on = true; // bool for logical variables
+
+===
+
+useful operators for some common and useful types
+
+https://i.ibb.co/JKg8mk4/Screenshot-20211010-023753.png
+https://i.ibb.co/XxHJ0dJ/Screenshot-20211010-023422.png
+https://media.geeksforgeeks.org/wp-content/cdn-uploads/Operators-In-C.png
+
+===
+
+• Initialization (giving a variable its initial value)
+• Assignment (giving a variable a new value)
+
+===
+
+a += 7; // means a = a+7
+b –= 9; // means b = b–9
+c *= 2; // means c = c*2
+
+===
+
+We name our variables so that we can remember them and refer to them from
+other parts of a program. What can be a name in C++? In a C++ program, a
+name starts with a letter and contains only letters, digits, and underscores.
+
+===
+
+Names are case sensitive; that is, uppercase and lowercase letters are distinct,
+so x and X are different names.
+
+===
+
+The C++ language reserves many (about 85) names as “keywords.” We list them
+in §A.3.1. You can’t use those to name your variables, types, functions, etc. 
+
+===
+
+Short names, such as x and i, are meaningful when used conventionally; that
+is, x should be a local variable or a parameter (see §4.5 and §8.4) and i should be
+a loop index (see §4.4.2.3).
+
+===
+
+• A type defines a set of possible values and a set of operations (for an object).
+• An object is some memory that holds a value of a given type.
+• A value is a set of bits in memory interpreted according to a type.
+• A variable is a named object.
+• A declaration is a statement that gives a name to an object.
+• A defi nition is a declaration that sets aside memory for an object.
+
+===
+
+In §3.4, we saw that we couldn’t directly add chars or compare a double to an
+int. However, C++ provides an indirect way to do both. When needed, a char is
+converted to an int and an int is converted to a double. For example:
+char c = 'x';
+int i1 = c;
+int i2 = 'x';
+Here both i1 and i2 get the value 120, which is the integer value of the character
+'x' in the most popular 8-bit character set.
+
+===
+
+to be continued...
+
+
+
+
+
+
+
+
